@@ -1,9 +1,14 @@
-# React + Vite
+# EV-OLUTION
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Tech used:
 
-Currently, two official plugins are available:
+1. React18
+2. Created with Vite
+2. JavaScript + SWC - for fast build time.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-"# EV-Landing-Page" 
+### Project Brief:
+
+It's a clean and professional landing page for an E.V vehicle company and an U.I based React project where I have tested my knowledge on React18 fundamentals and reinforcing the web development fundamentals like CSS & JAVASCRIPT for dynamic image & video rendering logic along with React18.
+
+Hope you like my design language :)
+
