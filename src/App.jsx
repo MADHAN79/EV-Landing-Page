@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import Background from "./components/Background/Background";
 import { Navbar } from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
@@ -19,6 +19,11 @@ const App = () => {
   //for playing or pause the video. | false - video dont play.
   const [playStatus, setPlayStatus] = useState(false); 
 
+  useEffect(() => {
+    setInterval(() => {
+      setHeroCount((count) => {return count===2 ? 0 : count+1})
+    }, 4000);
+  },[])
 
   return (
     <div>

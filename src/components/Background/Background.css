@@ -13,3 +13,16 @@
     /* so that the background-image is behind all the contents like hero text */
     z-index: -1; 
 }
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.fade-in {
+    animation: fadeIn 500ms  ease-in-out;
+}
+
+@media (max-width:450px) {
+    
+}

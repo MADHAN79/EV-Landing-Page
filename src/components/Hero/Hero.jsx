@@ -24,7 +24,7 @@ const Hero = ({ heroData, heroCount, setHeroCount,  playStatus, setPlayStatus })
             <li onClick={() => setHeroCount(1)} className={heroCount===1 ? "hero-dot orange" : "hero-dot"}></li>
             <li onClick={() => setHeroCount(2)} className={heroCount===2 ? "hero-dot orange" : "hero-dot"}></li>    
         </ul>
-        <div>
+        <div className='hero-play'>
           {/* icons displayed based playStatus(video is in play/pause) */}
           {/* !playStatus - if playStatus is false, it will set that to true while onClick */}
           {/* only with this !playStatus, we can switch the logic to back and forth, cant able to give manually false&true while onClick */}

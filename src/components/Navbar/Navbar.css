@@ -10,6 +10,8 @@
     font-family: Outfit;
     font-size: 42px;
     font-weight: 500;
+    padding-right: 20%;
+    color: aqua;
 }
 
 .nav-menu{
@@ -20,9 +22,32 @@
     gap: 90px;
 }
 
+.nav-menu li:hover{
+   color: aqua;
+}
+
 .nav-contact{
     border-radius: 50px;
     padding: 10px 38px;
     background: #fff;
     color: #262626;
+}
+
+.nav-contact:hover{
+    background-color: aqua;
+    color: white !important;
+}
+
+@media (max-width:450px) {
+   .nav{
+    display: inline;
+    flex-direction: column;
+    width: 100px;
+   }
+   .nav-logo{ 
+    font-size: 56px;
+   }
+   .nav-menu{
+    gap: none;
+   }
 }
