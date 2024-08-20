@@ -43,11 +43,14 @@
     display: inline;
     flex-direction: column;
     width: 100px;
+    
    }
    .nav-logo{ 
-    font-size: 56px;
+    font-size: 40px;
+    margin-left: 20px;
    }
    .nav-menu{
     gap: none;
+    margin-left: 20px;
    }
 }

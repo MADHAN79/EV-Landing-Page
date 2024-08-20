@@ -9,7 +9,7 @@ const Background = ({ playStatus, heroCount }) => {
     //if the background is in video play state, we return the video1.mp4
     if(playStatus) {
         return(
-                <video className='background fade-in' autoPlay loop muted >
+                <video className='background fade-in videoMode' autoPlay loop muted >
                     <source src={video1} type='video/mp4' />
                 </video>
             )

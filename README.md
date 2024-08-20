@@ -12,3 +12,7 @@ It's a clean and professional landing page for an E.V vehicle company and an U.I
 
 Hope you like my design language :)
 
+Project live link: https://madhan-ev-olution.netlify.app/
+Note: Keep your browser zoom level at 80% for optimized view.
+
+Also don't forget to see this beautiful website in your mobile with unique video view, which is different from desktop site.
